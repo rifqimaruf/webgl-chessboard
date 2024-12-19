@@ -28,6 +28,8 @@ This project visualizes a chessboard using Three.js, a JavaScript library for 3D
 
 ## Preview
 ![Chessboard Preview](./assets/image.png)
+![Chessboard Preview](./assets/image1.png)
+
 
 
 ## License
