@@ -4,14 +4,14 @@ import * as THREE from 'three';
 export function initScene(canvas) {
     // Create scene
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x808080);  // Medium gray background like in the reference
+    scene.background = new THREE.Color(0x808080);  
 
     // Add fog for atmospheric effect
     scene.fog = new THREE.Fog(0x808080, 10, 50);
 
     // Create camera
     const camera = new THREE.PerspectiveCamera(
-        45, // Field of view
+        45, 
         canvas.clientWidth / canvas.clientHeight,
         0.1,
         1000
