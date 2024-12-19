@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .left {
+            flex: 2;
+        }
+        .right {
+            flex: 1;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        #canvas {
+            display: block;
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="right">
+            <h1>Muhammad Rifqi Ma'ruf</h1>
+            <h2>5025221060</h2>
+            <h2>Grafika Komputer E</h2>
+            <h2>Chessboard</h2>
+        </div>
+    </div>
+
+    <!-- Import Three.js -->
+    <script async src="https://unpkg.com/es-module-shims/dist/es-module-shims.js"></script>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    
+    <!-- Import our modules -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
