@@ -2,7 +2,7 @@
 
 | Name                 | NRP        | Class                       |
 |----------------------|------------|----------------------------|
-| Muhammad Rifqi Ma'ruf | 5025221060 | Jaringan Komputer (D)      |
+| Muhammad Rifqi Ma'ruf | 5025221060 | Grafika Komputer (E)      |
 
 ## Project Overview
 This project visualizes a chessboard using Three.js, a JavaScript library for 3D graphics. The interface is designed to display a large chessboard model inside a styled container made with blender. 
