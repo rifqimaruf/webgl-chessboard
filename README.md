@@ -5,7 +5,7 @@
 | Muhammad Rifqi Ma'ruf | 5025221060 | Grafika Komputer (E)      |
 
 ## Project Overview
-This project visualizes a chessboard using WeebGL. The interface is designed to display a large chessboard model inside a styled container made with blender. 
+This project visualizes a chessboard using WebGL. The interface is designed to display a large chessboard model inside a styled container made with blender. 
 
 ## Prerequisites
 - A modern web browser (e.g., Chrome, Firefox, Edge).
